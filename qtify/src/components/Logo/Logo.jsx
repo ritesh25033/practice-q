@@ -4,8 +4,8 @@ import LogoImg from '../../assets/logo.png';
 
 const Logo = () => {
   return (
-    <div className={styles.container}>  
-    <img src={LogoImg} width={67} alt='logo' />    
+    <div className={styles.logoDiv}>
+    <img src={LogoImg} width={67} alt="logo"/>
     </div>
   );
 };
