@@ -34,3 +34,18 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
 }
+
+/* use to fill the full card with image ...avoid overflow or u can use object-fit also */
+img,svg{
+  display: block;
+  max-width: 100%;
+ }
+
+ /* 
+overwrite the default css of the swiper-slide provided by swiper
+by default -> width: 100%;
+ */
+ 
+.swiper-slide{
+  width: auto !important;
+}

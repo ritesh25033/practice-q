@@ -8,6 +8,7 @@ const Search = ({ placeholder }) => {
     <form className={styles.wrapper}>
       <input className={styles.search} placeholder={placeholder} />
       <button className={styles.searchButton} type='submit'>
+    
         <SearchIcon />
       </button>
     </form>
